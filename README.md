@@ -82,4 +82,35 @@ So, ready to add some sparkle to this challenge? Let's make these diamonds shine
 ---
 
 ## How to run
-Please fill this section as part of the assignment.
+
+You should create a conda environment with the following command:
+
+```bash
+conda create -n xtream_test python=3.10
+```
+
+Then you should activate the env, go into the project folder and install the requirements with this command:
+```bash
+pip install -r requirements.txt
+```
+
+You can optionally run the notebook by first activating jupyter with the command
+```bash
+jupyter notebook
+```
+
+and then run all the cells of the notebook named 'challenges.ipynb'
+
+but it is not necessary since scaler and model is saved in the project folder.
+
+So you can run the web app with the following command
+
+```bash
+python app.py
+```
+and navigate the URL http://127.0.0.1:5000, insert your parameters and the click predict
+
+
+P.S. Il notebook completa la Challenge 1, app.py completa la challenge 3.
+Per la Challenge 2 suppongo ci voglia qualcosa per CI/CD che purtroppo non ho mai avuto modo di utilizzare. In generale il deploy dei modelli è una cosa che non ho mai avuto modo di approfondire, così come il deploy su cloud, motivo per cui non ho discusso nemmeno la Challenge 4
+
